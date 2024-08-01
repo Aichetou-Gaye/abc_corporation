@@ -8,22 +8,19 @@
 
 ## Description
 
-Ce systéme de gestion bibliotheque permet de gérer les livres, emprunts, les retours ainsi que les eventuelles amendes pour retard. Il est conçu pour une utilisation optimale et simple.
+ABC Corporation est une entreprise spécialisée dans l’importation et l’exportation de produits, qui depuis sa création, elle gère ses activités à travers des fichiers Excel. Désormais, l'entreprise dispose d'une base de données dans le but de faciliter la gestion.
 
 ## Fonctionnalités principales
 
-- Ajout, modification et suppression de livres;
-- Ajout, modification et suppression des membres;
-- Ajout et suppression des prêts;
-- Ajout et suppression des retours et amendes;
+- Ajout, modification et suppression de clients;
+- Ajout, modification et suppression des produits;
+- Ajout, modification et suppression des commandes;
+- Ajout, modification et suppression des details de commandes;
 
-## Public Cible
-
-Ce système est destiné aux bibliotheques souhaitant suivre leur activités avec leur memebres pour pouvoir gérer leurs actvités au sein de la bibliotheque;
 
 ## Installation
 
-1 - Téléchager le code source du système depuis https://github.com/Aichetou-Gaye/gestionbiblio.git 
+1 - Téléchager le code source du système depuis https://github.com/Aichetou-Gaye/abc_corporation.git
 2 - Suivre le manuel dans README.
 
 ## Utilisation
@@ -34,12 +31,11 @@ Ce système est destiné aux bibliotheques souhaitant suivre leur activités ave
 
 ## Règles de gestion
 
-- Un livre peut etre emprunté par plusieurs membres;
-- Un membre ne peut emprunté qu'un seul livre à la fois;
-- Plusieurs memebres peuvent faire des prêts;
-- Un retard est un prêt dépassé d'une semaine;
-- une amende est posé aprés un retard;
-- un retour doit avoir lieu entre 3 jours et 7 jours de prêt.
+- Un produit peut etre fournie à un ou plusieurs details;
+- Un client peut faire plusieurs commandes;
+- Une commande n'est fait que par client;
+- Un detail commande est concerné par une commande;
+- Une commande peut avoir plusieurs details.
 
 ## Depannage 
 

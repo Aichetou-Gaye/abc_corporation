@@ -20,8 +20,8 @@ ABC Corporation est une entreprise spécialisée dans l’importation et l’exp
 
 ## Installation
 
-1 - Téléchager le code source depuis https://github.com/Aichetou-Gaye/abc_corporation.git
-2 - Suivre le manuel dans README, la section "Utilisation";
+- Téléchager le code source depuis https://github.com/Aichetou-Gaye/abc_corporation.git
+- Suivre le manuel dans README, la section "Utilisation";
 
 ## Utilisation
 

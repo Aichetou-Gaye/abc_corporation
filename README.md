@@ -20,14 +20,25 @@ ABC Corporation est une entreprise spécialisée dans l’importation et l’exp
 
 ## Installation
 
-1 - Téléchager le code source du système depuis https://github.com/Aichetou-Gaye/abc_corporation.git
-2 - Suivre le manuel dans README.
+1 - Téléchager le code source depuis https://github.com/Aichetou-Gaye/abc_corporation.git
+2 - Suivre le manuel dans README, la section "Utilisation";
 
 ## Utilisation
 
-- Importer le fichier sql;
-- Ensuite inserer vos donnees dans la base de donnée;
-- Effectuer des requetes pour extraire ou afficher des informations de votre base de donnée;
+### Connexion
+
+- Connecter vous à votre base de données en administrateur avec la commande "mysql -u root -p" et entrez votre mot de passe;
+- Ou se connecter en hôte avec la commande "mysql -h localhost -u nom_utilisateur -p" ensuite saisissez votre mot de passe.
+
+### Insertion de données
+
+Dans le fichier "script.sql", toutes les commandes pour la création de la base de données, son utilisation et la création des tables y sont souscrites, pour ce faire :
+
+- Copiez la ligne contenant "create database......;", pour créer la base de données;
+- Ensuite copiez "use .....;" pour pouvoir communiquer avec la base de donnée;
+- Pour la création des tables, copiez chaque partie de "create table ...(.........);" et collez un a un pour respecter la structure de la base de donnée;
+- Ensuite inserer vos donnees dans la table concernée en respectant la structure et le nommage des attributs;
+- Effectuer des requetes pour extraire ou afficher des informations souhaitées de votre base de donnée;
 
 ## Règles de gestion
 

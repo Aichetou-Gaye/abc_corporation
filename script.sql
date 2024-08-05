@@ -24,7 +24,7 @@ create table products(
 
 create table purchase_orders(
    id int auto_increment,
-   order_date date not null,
+   date date not null,
    customer_id int not null,
    delivery_address varchar(50) not null,
    constraint pk_order primary key(id),

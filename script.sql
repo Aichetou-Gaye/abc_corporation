@@ -1,6 +1,6 @@
-create database abc_corporation;
+create database business_management;
 
-use abc_corporation;
+use business_management;
 
 create table customers(
    id int auto_increment,
